@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/dependencies/glfw-3.3.4.bin.WIN32/include",
                 "${workspaceFolder}/dependencies/GLAD/include",
-                "${workspaceFolder}/dependencies/glm/glm"
+                "${workspaceFolder}/dependencies/glm"
             ],
             "defines": [
                 "_DEBUG",

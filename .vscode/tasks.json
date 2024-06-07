@@ -13,7 +13,7 @@
                 "${file}",
                 "/I", "${workspaceFolder}/dependencies/glfw-3.3.4.bin.WIN32/include",
                 "/I", "${workspaceFolder}/dependencies/GLAD/include",
-                "/I", "${workspaceFolder}/dependencies/glm/glm",
+                "/I", "${workspaceFolder}/dependencies/glm",
                 "/link",
                 "/LIBPATH:${workspaceFolder}/dependencies/glfw-3.3.4.bin.WIN32/lib-vc2019",
                 "glfw3_mt.lib",

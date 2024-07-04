@@ -7,7 +7,8 @@
                 "${workspaceFolder}/dependencies/glfw-3.3.4.bin.WIN32/include",
                 "${workspaceFolder}/dependencies/GLAD/include",
                 "${workspaceFolder}/dependencies/glm",
-                "${workspaceFolder}/dependencies/stb_image-include"
+                "${workspaceFolder}/dependencies/libs",
+                "${workspaceFolder}/dependencies/box2d-lib/include"
             ],
             "defines": [
                 "_DEBUG",

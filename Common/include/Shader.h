@@ -1,4 +1,4 @@
-// Nossa classezinha que lê o arquivo de shader e o compila na OpenGL
+// Nossa classezinha que lï¿½ o arquivo de shader e o compila na OpenGL
 // Exemplo retirado de https://learnopengl.com/#!Getting-started/Shaders
 
 #pragma once
@@ -132,4 +132,3 @@ public:
 		glUniformMatrix4fv(glGetUniformLocation(this->ID, name.c_str()), 1, GL_FALSE, v);
 	}
 };
-

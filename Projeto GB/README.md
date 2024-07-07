@@ -3,7 +3,9 @@
 ## Space Odyssey:
 
 -> Renderização de 3 objetos: Dois Planetas e um Light Cruiser (Modelos dos objetos disponibilizados pela Unisinos).
+
 -> Texturas Aplicadas: Terra, Mercúrio e T_Spase_Blue (Texturas disponibilizadas pela Unisinos).
+
 -> Movimentação de camera pelo ambiente, posicionamento de luz, controle de FOV, controle de rotação dos objetos nos eixos X, Y e Z.
 
 ![Space Odyssey](SpaceOdyssey.png)

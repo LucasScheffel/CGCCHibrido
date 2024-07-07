@@ -105,7 +105,6 @@ int main() {
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-	vector <glm::vec3> generateControlPointsSet(int nPoints);
 	vector <glm::vec3> generateControlPointsSet();
 	vector <glm::vec3> generateControlPointsSet1();
 	GLuint generateControlPointsBuffer(vector <glm::vec3> controlPoints);
@@ -230,7 +229,7 @@ int main() {
 
 		glm::vec3 pointOnCurve1 = bezier1.getPointOnCurve(i);
 		std::vector <glm::vec3> aux1;
-		aux.push_back(pointOnCurve1);
+		aux1.push_back(pointOnCurve1);
 
 		glm::mat4 projection = glm::perspective(fov, (GLfloat)WIDTH / (GLfloat)HEIGHT, 0.1f, 100.0f);
 		
